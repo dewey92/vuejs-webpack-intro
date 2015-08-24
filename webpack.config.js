@@ -10,9 +10,7 @@ module.exports = {
 	module: {
 		loaders: [
 			{ test: /\.vue$/, loader: "vue-loader" },
-			{ test: /\.styl$/, loader: "style!css!stylus" },
-			{ test: /\.css$/, loader: "style!css!" },
-			{ test: /\.html$/, loader: "html" }
+			{ test: /\.styl$/, loader: "style!css!stylus" }
 		]
 	},
 	plugins: [
