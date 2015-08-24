@@ -10,3 +10,6 @@ First step is to install webpack and friends
 
 ## Run
 All you have to do is just hit `npm start` on your project root directory
+
+## Demo
+[http://vuejs.katanium.com](http://vuejs.katanium.com)
