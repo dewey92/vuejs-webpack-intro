@@ -8,6 +8,6 @@
 			<li><a href="https://github.com/vuejs/vue-validator" title="Vue Validator">Vue Validator</a></li>
 			<li><a href="https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd" title="Vue Devtools (chrome extension)">Vue Devtools (chrome extension)</a></li>
 		</ul>
-		<p>You can download this presentation file on <a href="https://github.com/waspada/vuejs-webpack-slide-intro" title="this repo">this repo</a></p>
+		<p>You can download this presentation file on <a href="https://github.com/dewey92/vuejs-webpack-intro" title="this repo">this repo</a></p>
 	</div>
 </template>
