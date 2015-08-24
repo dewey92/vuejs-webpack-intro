@@ -6,9 +6,13 @@
 		font-weight 700
 	p
 		font-size 22px
-
+	time
+		font-size 15px
 	#meta
 		margin-top 20px
+	.author
+		font-size 18px
+		color #5dc596
 </style>
 
 <template>
@@ -20,7 +24,9 @@
 
 		<div id="meta">
 			<time datetime="{{ now }}" v-text="now"></time> <br/>
-			<span v-text="author"></span>
+			<div class="author">
+				<span v-text="author"></span><br>
+			</div>
 		</div>
 	</div>
 </template>
@@ -31,7 +37,7 @@
 			return {
 				/*logo : require('file!../../img/vue_logo.png'),*/
 				logo : '/img/vue_logo.png',
-				author : 'Jihad Dzikri Waspada',
+				author : 'Jihad Dzikri Waspada, co-founder at Katanium.com',
 				timer : null,
 				now : null
 			}

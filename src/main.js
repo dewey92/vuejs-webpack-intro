@@ -21,7 +21,7 @@ router.map({
 			require(['./components/home.vue'], resolve)
 		}
 	},
-	'slideshow' : {
+	'/slideshow' : {
 		component : function(resolve) {
 			require(['./components/slideshow/control.vue'], resolve);
 		}
