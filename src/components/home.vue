@@ -28,6 +28,8 @@
 				<span v-text="author"></span><br>
 			</div>
 		</div>
+		<br>
+		<a v-link="/slideshow" class="btn btn-lg btn-success">Start Slideshow</a>
 	</div>
 </template>
 
