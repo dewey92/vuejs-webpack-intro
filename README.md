@@ -9,4 +9,4 @@ First step is to install webpack and friends
 `npm install`
 
 ## Run
-Yup, the config is ready, all you have to do is jut hit `webpack` on your project root directory
+Yup, the config is ready, all you have to do is jut hit `npm start` on your project root directory
