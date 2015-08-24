@@ -19,10 +19,10 @@
 			</div>
 			<div class="col-sm-9">
 				<ul>
-					<li>Capitalize: <span class="text-success">{{ myText | capitalize }}</span></li>
-					<li>Uppercase: <span class="text-success">{{ myText | uppercase }}</span></li>
-					<li>Lowercase: <span class="text-success">{{ myText | lowercase }}</span></li>
-					<li>Currency: <span class="text-success">{{ myText | currency }}</span></li>
+					<li>myText | capitalize => <span class="text-success">{{ myText | capitalize }}</span></li>
+					<li>myText | uppercase => <span class="text-success">{{ myText | uppercase }}</span></li>
+					<li>myText | lowercase => <span class="text-success">{{ myText | lowercase }}</span></li>
+					<li>myText | currency 'Rp. ' => <span class="text-success">{{ myText | currency 'Rp. '}}</span></li>
 				</ul>
 			</div>
 		</div>

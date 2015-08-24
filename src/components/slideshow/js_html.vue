@@ -1,6 +1,3 @@
-<style lang="stylus" scoped>
-</style>
-
 <template>
 	<div class="example">
 		<h1>JS and HTML</h1>

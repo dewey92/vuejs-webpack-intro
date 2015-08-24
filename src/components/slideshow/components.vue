@@ -1,6 +1,3 @@
-<style lang="stylus" scoped>
-</style>
-
 <template>
 	<div class="components">
 		<h1>Components</h1>
@@ -40,6 +37,9 @@
 				</div>
 			</div>
 		</div>
+
+		<br><br><br><br><br>
+		<h1>Question: But how if the template contain a deep DOM node?</h1>
 	</div>
 </template>
 

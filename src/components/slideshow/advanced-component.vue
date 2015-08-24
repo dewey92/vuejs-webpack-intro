@@ -1,8 +1,3 @@
-<style lang="stylus" scoped>
-	.advanced-component > h1
-		font-size 3em
-</style>
-
 <template>
 	<div class="advanced-component">
 		<h1>Advanced Component</h1>
@@ -20,15 +15,7 @@
 				</div>
 				<div class="panel panel-default">
 					<div class="panel-body">
-						 <img v-attr="src: './img/JS_adv_component.png'" class="img-responsive" alt="">
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-5">
-				<div class="panel panel-default example">
-					<div class="panel-body">
-
-						<form>
+						 <form>
 							<div class="form-group">
 								<label class="sr-only" for="type">Type</label>
 								<input
@@ -36,7 +23,7 @@
 									class="form-control"
 									id="type"
 									v-model="alertType"
-									placeholder="Type of alert">
+									placeholder="Type of alert (success, info, warning, danger)">
 							</div>
 							<div class="form-group">
 								<label class="sr-only" for="bold">Bold</label>
@@ -59,7 +46,13 @@
 						</form>
 				
 						<alert type="{{ alertType }}" bold="{{ alertBold }}" msg="{{ alertMsg }}"></alert>
-				
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-5">
+				<div class="panel panel-default example">
+					<div class="panel-body">
+						<img v-attr="src: './img/JS_adv_component.png'" class="img-responsive" alt="">				
 					</div>
 				</div>
 			</div>

@@ -12,7 +12,7 @@
 		props : ['type', 'bold', 'msg'],
 		data : function() {
 			return {
-				type : 'default',
+				type : 'info',
 				isShown : true
 			}
 		},

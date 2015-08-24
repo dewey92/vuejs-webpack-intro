@@ -1,6 +1,3 @@
-<style lang="stylus" scoped>
-</style>
-
 <template>
   <div class="instance">
     <h1>VueJS Instance</h1>

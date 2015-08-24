@@ -9,7 +9,7 @@
 		font-size 1.5em
 		h1
 			color #5dc596
-			font-size 4em
+			font-size 2.7em
 
 	.slide-enter, .slide-leave
 		transition all .25s ease
@@ -21,7 +21,10 @@
 <template>
 	<div class="control-slide">
 		<div class="row">
-			<div class="col-sm-2 col-sm-offset-8">
+			<div class="col-sm-4 col-sm-offset-1">
+				<p><em>Press <kbd>&larr;</kbd> and <kbd>&rarr;</kbd> to navigate between pages</em></p>
+			</div>
+			<div class="col-sm-2 col-sm-offset-4">
 				<div class="input-group">
 					<input type="number" name="slide" class="form-control" v-model="page" min="1" max="{{ totalSlides }}" placeholder="number">
 					<span class="input-group-addon">of <span v-text="totalSlides"></span></span>
@@ -37,7 +40,7 @@
 </template>
 
 <script>
-	var mixins    = require('./mixins.js');
+	var mixins = require('./mixins.js');
 
 	module.exports = {
 		data : function() {
@@ -62,17 +65,14 @@
 
 				if (tag !== 'input' && tag !== 'textarea') {
 					if (e.keyCode == '37') { // left arrow
-						if (this.page === 1) {
-							return;
-						} else {
+						if (this.page > 1) {
 							this.page--;
 						}
 					}
 					else if (e.keyCode == '39') { // right arrow
-						if (this.page === this.totalSlides) {
-							return;
+						if (this.page < this.totalSlides) {
+							this.page++;
 						};
-						this.page++;
 					}
 				}
 			}

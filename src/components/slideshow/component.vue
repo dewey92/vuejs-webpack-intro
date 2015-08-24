@@ -1,6 +1,3 @@
-<style lang="stylus" scoped>
-</style>
-
 <template>
 	<div class="component">
 		<h1>Component</h1>
